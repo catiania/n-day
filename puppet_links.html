@@ -1,0 +1,1085 @@
+
+<html>
+<head>
+<style>
+td.createcol p {
+	padding-left: 10em;
+}
+
+p{
+	font-family: 'Segoe UI';
+}
+a {
+	text-decoration: none;
+    font-family: 'Segoe UI';
+	color: black;
+}
+
+a:visited {
+	color: grey;
+}
+
+table {
+	border-collapse: collapse;
+	max-width: 1000%;
+	border: 1px solid grey;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+tr, td {
+	border-bottom: 2px solid green;
+}
+tr.end, td.end {
+	border-bottom: 5px solid rgb(216, 216, 32);
+}
+td p {
+	padding: 1em;
+}
+
+body {
+	text-align:center;
+	padding-top: 50px;
+	margin:0;
+}
+
+tr:hover {
+	background-color: lightgrey;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #CCCD;
+  border-radius: 0px 0px 5px 5px;
+}
+
+</style>
+</head>
+ <div class="sticky">
+  <p>W to open nation and focus next, A/D to open prod, S to open incoming, Q to focus prev nation, E to focus next nation</p>
+</div> 
+<body onkeypress="select()">
+<table class = "center">
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat001/nation=cat001/nation=cat001">Cat001</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat001/nation=cat001/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat001/nation=cat001/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat002/nation=cat002/nation=cat002">Cat002</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat002/nation=cat002/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat002/nation=cat002/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat003/nation=cat003/nation=cat003">Cat003</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat003/nation=cat003/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat003/nation=cat003/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat004/nation=cat004/nation=cat004">Cat004</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat004/nation=cat004/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat004/nation=cat004/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat005/nation=cat005/nation=cat005">Cat005</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat005/nation=cat005/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat005/nation=cat005/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat006/nation=cat006/nation=cat006">Cat006</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat006/nation=cat006/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat006/nation=cat006/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat007/nation=cat007/nation=cat007">Cat007</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat007/nation=cat007/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat007/nation=cat007/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat008/nation=cat008/nation=cat008">Cat008</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat008/nation=cat008/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat008/nation=cat008/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat009/nation=cat009/nation=cat009">Cat009</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat009/nation=cat009/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat009/nation=cat009/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat010/nation=cat010/nation=cat010">Cat010</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat010/nation=cat010/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat010/nation=cat010/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat011/nation=cat011/nation=cat011">Cat011</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat011/nation=cat011/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat011/nation=cat011/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat013/nation=cat013/nation=cat013">Cat013</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat013/nation=cat013/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat013/nation=cat013/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat014/nation=cat014/nation=cat014">Cat014</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat014/nation=cat014/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat014/nation=cat014/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat015/nation=cat015/nation=cat015">Cat015</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat015/nation=cat015/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat015/nation=cat015/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat016/nation=cat016/nation=cat016">Cat016</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat016/nation=cat016/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat016/nation=cat016/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat017/nation=cat017/nation=cat017">Cat017</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat017/nation=cat017/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat017/nation=cat017/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat018/nation=cat018/nation=cat018">Cat018</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat018/nation=cat018/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat018/nation=cat018/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat019/nation=cat019/nation=cat019">Cat019</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat019/nation=cat019/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat019/nation=cat019/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat020/nation=cat020/nation=cat020">Cat020</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat020/nation=cat020/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat020/nation=cat020/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat022/nation=cat022/nation=cat022">Cat022</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat022/nation=cat022/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat022/nation=cat022/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat023/nation=cat023/nation=cat023">Cat023</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat023/nation=cat023/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat023/nation=cat023/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat024/nation=cat024/nation=cat024">Cat024</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat024/nation=cat024/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat024/nation=cat024/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat025/nation=cat025/nation=cat025">Cat025</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat025/nation=cat025/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat025/nation=cat025/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat026/nation=cat026/nation=cat026">Cat026</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat026/nation=cat026/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat026/nation=cat026/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat027/nation=cat027/nation=cat027">Cat027</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat027/nation=cat027/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat027/nation=cat027/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat028/nation=cat028/nation=cat028">Cat028</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat028/nation=cat028/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat028/nation=cat028/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat029/nation=cat029/nation=cat029">Cat029</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat029/nation=cat029/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat029/nation=cat029/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat030/nation=cat030/nation=cat030">Cat030</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat030/nation=cat030/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat030/nation=cat030/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat031/nation=cat031/nation=cat031">Cat031</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat031/nation=cat031/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat031/nation=cat031/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat032/nation=cat032/nation=cat032">Cat032</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat032/nation=cat032/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat032/nation=cat032/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat033/nation=cat033/nation=cat033">Cat033</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat033/nation=cat033/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat033/nation=cat033/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat035/nation=cat035/nation=cat035">Cat035</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat035/nation=cat035/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat035/nation=cat035/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat036/nation=cat036/nation=cat036">Cat036</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat036/nation=cat036/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat036/nation=cat036/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat037/nation=cat037/nation=cat037">Cat037</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat037/nation=cat037/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat037/nation=cat037/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat038/nation=cat038/nation=cat038">Cat038</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat038/nation=cat038/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat038/nation=cat038/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat039/nation=cat039/nation=cat039">Cat039</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat039/nation=cat039/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat039/nation=cat039/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat040/nation=cat040/nation=cat040">Cat040</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat040/nation=cat040/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat040/nation=cat040/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat041/nation=cat041/nation=cat041">Cat041</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat041/nation=cat041/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat041/nation=cat041/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat042/nation=cat042/nation=cat042">Cat042</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat042/nation=cat042/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat042/nation=cat042/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat043/nation=cat043/nation=cat043">Cat043</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat043/nation=cat043/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat043/nation=cat043/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat044/nation=cat044/nation=cat044">Cat044</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat044/nation=cat044/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat044/nation=cat044/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat045/nation=cat045/nation=cat045">Cat045</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat045/nation=cat045/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat045/nation=cat045/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat046/nation=cat046/nation=cat046">Cat046</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat046/nation=cat046/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat046/nation=cat046/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat047/nation=cat047/nation=cat047">Cat047</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat047/nation=cat047/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat047/nation=cat047/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat048/nation=cat048/nation=cat048">Cat048</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat048/nation=cat048/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat048/nation=cat048/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat049/nation=cat049/nation=cat049">Cat049</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat049/nation=cat049/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat049/nation=cat049/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat050/nation=cat050/nation=cat050">Cat050</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat050/nation=cat050/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat050/nation=cat050/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat051/nation=cat051/nation=cat051">Cat051</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat051/nation=cat051/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat051/nation=cat051/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat052/nation=cat052/nation=cat052">Cat052</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat052/nation=cat052/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat052/nation=cat052/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat053/nation=cat053/nation=cat053">Cat053</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat053/nation=cat053/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat053/nation=cat053/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat054/nation=cat054/nation=cat054">Cat054</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat054/nation=cat054/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat054/nation=cat054/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat055/nation=cat055/nation=cat055">Cat055</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat055/nation=cat055/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat055/nation=cat055/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat056/nation=cat056/nation=cat056">Cat056</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat056/nation=cat056/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat056/nation=cat056/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat057/nation=cat057/nation=cat057">Cat057</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat057/nation=cat057/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat057/nation=cat057/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat058/nation=cat058/nation=cat058">Cat058</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat058/nation=cat058/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat058/nation=cat058/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat059/nation=cat059/nation=cat059">Cat059</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat059/nation=cat059/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat059/nation=cat059/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat060/nation=cat060/nation=cat060">Cat060</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat060/nation=cat060/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat060/nation=cat060/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat061/nation=cat061/nation=cat061">Cat061</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat061/nation=cat061/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat061/nation=cat061/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat062/nation=cat062/nation=cat062">Cat062</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat062/nation=cat062/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat062/nation=cat062/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat063/nation=cat063/nation=cat063">Cat063</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat063/nation=cat063/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat063/nation=cat063/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat064/nation=cat064/nation=cat064">Cat064</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat064/nation=cat064/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat064/nation=cat064/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat065/nation=cat065/nation=cat065">Cat065</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat065/nation=cat065/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat065/nation=cat065/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat066/nation=cat066/nation=cat066">Cat066</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat066/nation=cat066/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat066/nation=cat066/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat067/nation=cat067/nation=cat067">Cat067</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat067/nation=cat067/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat067/nation=cat067/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat068/nation=cat068/nation=cat068">Cat068</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat068/nation=cat068/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat068/nation=cat068/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat069/nation=cat069/nation=cat069">Cat069</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat069/nation=cat069/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat069/nation=cat069/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat070/nation=cat070/nation=cat070">Cat070</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat070/nation=cat070/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat070/nation=cat070/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat071/nation=cat071/nation=cat071">Cat071</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat071/nation=cat071/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat071/nation=cat071/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat072/nation=cat072/nation=cat072">Cat072</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat072/nation=cat072/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat072/nation=cat072/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat073/nation=cat073/nation=cat073">Cat073</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat073/nation=cat073/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat073/nation=cat073/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat074/nation=cat074/nation=cat074">Cat074</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat074/nation=cat074/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat074/nation=cat074/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat075/nation=cat075/nation=cat075">Cat075</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat075/nation=cat075/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat075/nation=cat075/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat076/nation=cat076/nation=cat076">Cat076</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat076/nation=cat076/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat076/nation=cat076/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat077/nation=cat077/nation=cat077">Cat077</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat077/nation=cat077/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat077/nation=cat077/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat078/nation=cat078/nation=cat078">Cat078</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat078/nation=cat078/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat078/nation=cat078/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat079/nation=cat079/nation=cat079">Cat079</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat079/nation=cat079/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat079/nation=cat079/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat080/nation=cat080/nation=cat080">Cat080</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat080/nation=cat080/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat080/nation=cat080/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat081/nation=cat081/nation=cat081">Cat081</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat081/nation=cat081/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat081/nation=cat081/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat082/nation=cat082/nation=cat082">Cat082</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat082/nation=cat082/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat082/nation=cat082/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat083/nation=cat083/nation=cat083">Cat083</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat083/nation=cat083/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat083/nation=cat083/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat084/nation=cat084/nation=cat084">Cat084</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat084/nation=cat084/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat084/nation=cat084/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat085/nation=cat085/nation=cat085">Cat085</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat085/nation=cat085/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat085/nation=cat085/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat086/nation=cat086/nation=cat086">Cat086</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat086/nation=cat086/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat086/nation=cat086/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat087/nation=cat087/nation=cat087">Cat087</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat087/nation=cat087/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat087/nation=cat087/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat088/nation=cat088/nation=cat088">Cat088</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat088/nation=cat088/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat088/nation=cat088/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat089/nation=cat089/nation=cat089">Cat089</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat089/nation=cat089/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat089/nation=cat089/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat090/nation=cat090/nation=cat090">Cat090</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat090/nation=cat090/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat090/nation=cat090/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat091/nation=cat091/nation=cat091">Cat091</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat091/nation=cat091/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat091/nation=cat091/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat092/nation=cat092/nation=cat092">Cat092</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat092/nation=cat092/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat092/nation=cat092/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat093/nation=cat093/nation=cat093">Cat093</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat093/nation=cat093/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat093/nation=cat093/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat094/nation=cat094/nation=cat094">Cat094</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat094/nation=cat094/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat094/nation=cat094/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat095/nation=cat095/nation=cat095">Cat095</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat095/nation=cat095/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat095/nation=cat095/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat096/nation=cat096/nation=cat096">Cat096</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat096/nation=cat096/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat096/nation=cat096/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat097/nation=cat097/nation=cat097">Cat097</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat097/nation=cat097/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat097/nation=cat097/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat098/nation=cat098/nation=cat098">Cat098</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat098/nation=cat098/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat098/nation=cat098/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat099/nation=cat099/nation=cat099">Cat099</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat099/nation=cat099/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat099/nation=cat099/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat100/nation=cat100/nation=cat100">Cat100</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat100/nation=cat100/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat100/nation=cat100/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat101/nation=cat101/nation=cat101">Cat101</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat101/nation=cat101/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat101/nation=cat101/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat102/nation=cat102/nation=cat102">Cat102</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat102/nation=cat102/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat102/nation=cat102/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat103/nation=cat103/nation=cat103">Cat103</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat103/nation=cat103/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat103/nation=cat103/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat104/nation=cat104/nation=cat104">Cat104</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat104/nation=cat104/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat104/nation=cat104/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat105/nation=cat105/nation=cat105">Cat105</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat105/nation=cat105/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat105/nation=cat105/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat106/nation=cat106/nation=cat106">Cat106</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat106/nation=cat106/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat106/nation=cat106/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat107/nation=cat107/nation=cat107">Cat107</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat107/nation=cat107/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat107/nation=cat107/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat108/nation=cat108/nation=cat108">Cat108</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat108/nation=cat108/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat108/nation=cat108/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat109/nation=cat109/nation=cat109">Cat109</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat109/nation=cat109/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat109/nation=cat109/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat110/nation=cat110/nation=cat110">Cat110</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat110/nation=cat110/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat110/nation=cat110/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat111/nation=cat111/nation=cat111">Cat111</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat111/nation=cat111/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat111/nation=cat111/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat112/nation=cat112/nation=cat112">Cat112</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat112/nation=cat112/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat112/nation=cat112/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat113/nation=cat113/nation=cat113">Cat113</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat113/nation=cat113/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat113/nation=cat113/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat114/nation=cat114/nation=cat114">Cat114</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat114/nation=cat114/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat114/nation=cat114/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat115/nation=cat115/nation=cat115">Cat115</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat115/nation=cat115/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat115/nation=cat115/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat116/nation=cat116/nation=cat116">Cat116</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat116/nation=cat116/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat116/nation=cat116/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat117/nation=cat117/nation=cat117">Cat117</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat117/nation=cat117/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat117/nation=cat117/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat118/nation=cat118/nation=cat118">Cat118</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat118/nation=cat118/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat118/nation=cat118/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat119/nation=cat119/nation=cat119">Cat119</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat119/nation=cat119/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat119/nation=cat119/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat120/nation=cat120/nation=cat120">Cat120</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat120/nation=cat120/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat120/nation=cat120/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat122/nation=cat122/nation=cat122">Cat122</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat122/nation=cat122/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat122/nation=cat122/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat124/nation=cat124/nation=cat124">Cat124</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat124/nation=cat124/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat124/nation=cat124/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat125/nation=cat125/nation=cat125">Cat125</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat125/nation=cat125/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat125/nation=cat125/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat126/nation=cat126/nation=cat126">Cat126</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat126/nation=cat126/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat126/nation=cat126/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat127/nation=cat127/nation=cat127">Cat127</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat127/nation=cat127/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat127/nation=cat127/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat128/nation=cat128/nation=cat128">Cat128</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat128/nation=cat128/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat128/nation=cat128/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat129/nation=cat129/nation=cat129">Cat129</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat129/nation=cat129/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat129/nation=cat129/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat130/nation=cat130/nation=cat130">Cat130</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat130/nation=cat130/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat130/nation=cat130/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat131/nation=cat131/nation=cat131">Cat131</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat131/nation=cat131/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat131/nation=cat131/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat132/nation=cat132/nation=cat132">Cat132</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat132/nation=cat132/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat132/nation=cat132/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat133/nation=cat133/nation=cat133">Cat133</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat133/nation=cat133/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat133/nation=cat133/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat134/nation=cat134/nation=cat134">Cat134</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat134/nation=cat134/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat134/nation=cat134/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat135/nation=cat135/nation=cat135">Cat135</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat135/nation=cat135/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat135/nation=cat135/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat136/nation=cat136/nation=cat136">Cat136</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat136/nation=cat136/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat136/nation=cat136/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat137/nation=cat137/nation=cat137">Cat137</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat137/nation=cat137/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat137/nation=cat137/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat138/nation=cat138/nation=cat138">Cat138</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat138/nation=cat138/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat138/nation=cat138/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat139/nation=cat139/nation=cat139">Cat139</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat139/nation=cat139/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat139/nation=cat139/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat140/nation=cat140/nation=cat140">Cat140</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat140/nation=cat140/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat140/nation=cat140/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat141/nation=cat141/nation=cat141">Cat141</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat141/nation=cat141/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat141/nation=cat141/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat142/nation=cat142/nation=cat142">Cat142</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat142/nation=cat142/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat142/nation=cat142/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat143/nation=cat143/nation=cat143">Cat143</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat143/nation=cat143/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat143/nation=cat143/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat144/nation=cat144/nation=cat144">Cat144</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat144/nation=cat144/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat144/nation=cat144/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat145/nation=cat145/nation=cat145">Cat145</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat145/nation=cat145/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat145/nation=cat145/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat146/nation=cat146/nation=cat146">Cat146</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat146/nation=cat146/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat146/nation=cat146/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat147/nation=cat147/nation=cat147">Cat147</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat147/nation=cat147/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat147/nation=cat147/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat148/nation=cat148/nation=cat148">Cat148</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat148/nation=cat148/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat148/nation=cat148/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat149/nation=cat149/nation=cat149">Cat149</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat149/nation=cat149/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat149/nation=cat149/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat150/nation=cat150/nation=cat150">Cat150</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat150/nation=cat150/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat150/nation=cat150/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat151/nation=cat151/nation=cat151">Cat151</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat151/nation=cat151/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat151/nation=cat151/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat152/nation=cat152/nation=cat152">Cat152</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat152/nation=cat152/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat152/nation=cat152/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat153/nation=cat153/nation=cat153">Cat153</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat153/nation=cat153/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat153/nation=cat153/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat154/nation=cat154/nation=cat154">Cat154</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat154/nation=cat154/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat154/nation=cat154/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat155/nation=cat155/nation=cat155">Cat155</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat155/nation=cat155/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat155/nation=cat155/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat156/nation=cat156/nation=cat156">Cat156</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat156/nation=cat156/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat156/nation=cat156/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat157/nation=cat157/nation=cat157">Cat157</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat157/nation=cat157/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat157/nation=cat157/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat158/nation=cat158/nation=cat158">Cat158</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat158/nation=cat158/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat158/nation=cat158/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat159/nation=cat159/nation=cat159">Cat159</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat159/nation=cat159/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat159/nation=cat159/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat160/nation=cat160/nation=cat160">Cat160</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat160/nation=cat160/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat160/nation=cat160/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat161/nation=cat161/nation=cat161">Cat161</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat161/nation=cat161/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat161/nation=cat161/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat162/nation=cat162/nation=cat162">Cat162</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat162/nation=cat162/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat162/nation=cat162/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat163/nation=cat163/nation=cat163">Cat163</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat163/nation=cat163/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat163/nation=cat163/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat164/nation=cat164/nation=cat164">Cat164</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat164/nation=cat164/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat164/nation=cat164/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat165/nation=cat165/nation=cat165">Cat165</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat165/nation=cat165/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat165/nation=cat165/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat166/nation=cat166/nation=cat166">Cat166</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat166/nation=cat166/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat166/nation=cat166/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat167/nation=cat167/nation=cat167">Cat167</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat167/nation=cat167/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat167/nation=cat167/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat168/nation=cat168/nation=cat168">Cat168</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat168/nation=cat168/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat168/nation=cat168/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat169/nation=cat169/nation=cat169">Cat169</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat169/nation=cat169/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat169/nation=cat169/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat170/nation=cat170/nation=cat170">Cat170</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat170/nation=cat170/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat170/nation=cat170/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat171/nation=cat171/nation=cat171">Cat171</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat171/nation=cat171/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat171/nation=cat171/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat172/nation=cat172/nation=cat172">Cat172</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat172/nation=cat172/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat172/nation=cat172/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat173/nation=cat173/nation=cat173">Cat173</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat173/nation=cat173/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat173/nation=cat173/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat174/nation=cat174/nation=cat174">Cat174</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat174/nation=cat174/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat174/nation=cat174/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat175/nation=cat175/nation=cat175">Cat175</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat175/nation=cat175/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat175/nation=cat175/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat176/nation=cat176/nation=cat176">Cat176</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat176/nation=cat176/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat176/nation=cat176/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat177/nation=cat177/nation=cat177">Cat177</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat177/nation=cat177/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat177/nation=cat177/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat178/nation=cat178/nation=cat178">Cat178</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat178/nation=cat178/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat178/nation=cat178/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat179/nation=cat179/nation=cat179">Cat179</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat179/nation=cat179/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat179/nation=cat179/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat180/nation=cat180/nation=cat180">Cat180</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat180/nation=cat180/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat180/nation=cat180/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat181/nation=cat181/nation=cat181">Cat181</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat181/nation=cat181/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat181/nation=cat181/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat182/nation=cat182/nation=cat182">Cat182</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat182/nation=cat182/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat182/nation=cat182/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat183/nation=cat183/nation=cat183">Cat183</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat183/nation=cat183/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat183/nation=cat183/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat184/nation=cat184/nation=cat184">Cat184</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat184/nation=cat184/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat184/nation=cat184/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat185/nation=cat185/nation=cat185">Cat185</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat185/nation=cat185/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat185/nation=cat185/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat186/nation=cat186/nation=cat186">Cat186</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat186/nation=cat186/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat186/nation=cat186/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat187/nation=cat187/nation=cat187">Cat187</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat187/nation=cat187/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat187/nation=cat187/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat188/nation=cat188/nation=cat188">Cat188</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat188/nation=cat188/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat188/nation=cat188/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat189/nation=cat189/nation=cat189">Cat189</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat189/nation=cat189/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat189/nation=cat189/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat190/nation=cat190/nation=cat190">Cat190</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat190/nation=cat190/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat190/nation=cat190/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat191/nation=cat191/nation=cat191">Cat191</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat191/nation=cat191/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat191/nation=cat191/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat192/nation=cat192/nation=cat192">Cat192</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat192/nation=cat192/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat192/nation=cat192/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat193/nation=cat193/nation=cat193">Cat193</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat193/nation=cat193/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat193/nation=cat193/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat194/nation=cat194/nation=cat194">Cat194</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat194/nation=cat194/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat194/nation=cat194/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat195/nation=cat195/nation=cat195">Cat195</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat195/nation=cat195/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat195/nation=cat195/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat196/nation=cat196/nation=cat196">Cat196</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat196/nation=cat196/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat196/nation=cat196/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat197/nation=cat197/nation=cat197">Cat197</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat197/nation=cat197/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat197/nation=cat197/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat198/nation=cat198/nation=cat198">Cat198</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat198/nation=cat198/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat198/nation=cat198/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat199/nation=cat199/nation=cat199">Cat199</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat199/nation=cat199/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat199/nation=cat199/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+<tr>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat200/nation=cat200/nation=cat200">Cat200</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat200/nation=cat200/page=nukes/view=production">production</a></p></td>
+	<td><p><a target="_blank" href="https://www.nationstates.net/container=cat200/nation=cat200/page=faction/fid=1/view=incoming">incoming</a></p></td>
+</tr>
+
+</table>
+<script>
+
+const body = document.querySelector('body');
+
+var count = 0;
+document.querySelectorAll('a')[count].style.color = "red";
+function select(e){
+    document.querySelectorAll('a')[count].style.color = "black";
+	if (window.event) keycode = window.event.keyCode; 	// IE
+	else if (e) keycode = e.which;
+	if (keycode == 87) { 
+		document.querySelectorAll('a')[count].click()
+		count+=3;
+	}
+	else if(keycode==65||keycode==68){
+		document.querySelectorAll('a')[count+1].click()
+		count+=3;
+	}
+	else if(keycode==83){
+		document.querySelectorAll('a')[count+2].click()
+		count+=3;
+	}
+	else if (keycode == 81){
+		count-=3;
+	}
+	else if (keycode == 69){
+		count+=3;
+	}
+	if(count<0){
+		count = 0;
+	}else if(count>=document.querySelectorAll('a').length){
+		count = document.querySelectorAll('a').length-3;	
+	}
+	document.querySelectorAll('a')[count].style.color = "red";
+	if(count>1)
+	document.querySelectorAll('a')[count-1].scrollIntoView();
+	
+}
+body.onkeydown=select;
+</script>
+
+</body>
+</html>
