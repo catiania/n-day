@@ -88,21 +88,21 @@ function select(e){
 	else if (e) keycode = e.which;
 	if (keycode == 87) { 
 		document.querySelectorAll('a')[count].click()
-		count+=3;
+		count+=4;
 	}
 	else if(keycode==65||keycode==68){
 		document.querySelectorAll('a')[count+1].click()
-		count+=3;
+		count+=4;
 	}
 	else if(keycode==83){
 		document.querySelectorAll('a')[count+2].click()
-		count+=3;
+		count+=4;
 	}
 	else if (keycode == 81){
-		count-=3;
+		count-=4;
 	}
 	else if (keycode == 69){
-		count+=3;
+		count+=4;
 	}
 	if(count<0){
 		count = 0;
