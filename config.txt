@@ -15,6 +15,7 @@
 # Will point to https://www.nationstates.net/page=dilemmas/template-overall=none
 # A container redirect will be automatically included.
 Production: page=nukes/view=production
-Incoming: page=faction/fid=212/view=incoming
-Join: page=faction/fid=212?consider_join_faction=1&join_faction=1
-
+Incoming: page=faction/fid=1/view=incoming
+Target: page=faction/fid=95/view=nations/start=0
+Launch: page=nukes/view=targets
+Join: page=faction/fid=0?consider_join_faction=1&join_faction=1
