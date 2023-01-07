@@ -8,6 +8,7 @@ import re
 import configparser
 
 html_start = """
+<!doctype html>
 <html>
 <head>
 <style>
@@ -44,7 +45,7 @@ tr.end, td.end {
 	border-bottom: 5px solid rgb(216, 216, 32);
 }
 td p {
-	padding: 1em;
+	padding: 0.7em;
 }
 
 body {
@@ -67,55 +68,12 @@ tr:hover {
 
 </style>
 </head>
- <div class="sticky">
-  <p>W to open nation and focus next, A/D to open prod, S to open incoming, Q to focus prev nation, E to focus next nation</p>
-</div> 
-<body onkeypress="select()">
+
 <table class = "center">
 """
 
 html_end = """
 </table>
-<script>
-
-const body = document.querySelector('body');
-
-var count = 0;
-document.querySelectorAll('a')[count].style.color = "red";
-function select(e){
-    document.querySelectorAll('a')[count].style.color = "black";
-	if (window.event) keycode = window.event.keyCode; 	// IE
-	else if (e) keycode = e.which;
-	if (keycode == 87) { 
-		document.querySelectorAll('a')[count].click()
-		count+=4;
-	}
-	else if(keycode==65||keycode==68){
-		document.querySelectorAll('a')[count+1].click()
-		count+=4;
-	}
-	else if(keycode==83){
-		document.querySelectorAll('a')[count+2].click()
-		count+=4;
-	}
-	else if (keycode == 81){
-		count-=4;
-	}
-	else if (keycode == 69){
-		count+=4;
-	}
-	if(count<0){
-		count = 0;
-	}else if(count>=document.querySelectorAll('a').length){
-		count = document.querySelectorAll('a').length-3;	
-	}
-	document.querySelectorAll('a')[count].style.color = "red";
-	if(count>1)
-	document.querySelectorAll('a')[count-1].scrollIntoView();
-	
-}
-body.onkeydown=select;
-</script>
 
 </body>
 </html>
@@ -139,7 +97,7 @@ puppets = list(filter(None, puppets))
 
 containerise_rules_container = open('containerise (container).txt', 'w')
 containerise_rules_nation = open('containerise (nation).txt', 'w')
-links = open('puppet_links.html', 'w')
+links = open('nday_links.html', 'w')
 
 links.write(html_start)
 
