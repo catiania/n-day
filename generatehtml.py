@@ -99,6 +99,8 @@ containerise_rules_container = open('containerise (container).txt', 'w')
 containerise_rules_nation = open('containerise (nation).txt', 'w')
 links = open('nday_links.html', 'w')
 
+user = input("Enter Your Main Nation: ").strip().replace(" ","_")
+
 links.write(html_start)
 
 for nation in puppets:
@@ -108,10 +110,10 @@ for nation in puppets:
 	containerise_rules_container.write("@^.*\\.nationstates\\.net/(.*/)?container={}(/.*)?$ , {}\n".format(escaped_canonical, nation))
 	containerise_rules_nation.write("@^.*\\.nationstates\\.net/(.*/)?nation={}(/.*)?$ , {}\n".format(escaped_canonical, nation))
 	links.write("<tr>\n")
-	links.write(f'\t<td><p><a target="_blank" href="https://www.nationstates.net/{container_protolink}/nation={canonical}">{nation}</a></p></td>\n')
+	links.write(f'\t<td><p><a target="_blank" href="https://www.nationstates.net/{container_protolink}/nation={canonical}?generated_by=cat_nuke_thing_by_catiania_used_by_{user}">{nation}</a></p></td>\n')
 	try:
 		for key, value in config['links'].items():
-			links.write(f'\t<td><p><a target="_blank" href="https://www.nationstates.net/{container_protolink}/{value}">{key}</a></p></td>\n')
+			links.write(f'\t<td><p><a target="_blank" href="https://www.nationstates.net/{container_protolink}/{value}?generated_by=cat_nuke_thing_by_catiania_used_by_{user}">{key}</a></p></td>\n')
 	except KeyError:
 		pass
 	# links.write("""<td><p><a target="_blank" href="https://www.nationstates.net/container={}/nation={}/page=zombie_control">Zombie Control</a></p></td>""".format(canonical))
