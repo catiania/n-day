@@ -104,7 +104,7 @@ user = input("Enter Your Main Nation: ").strip().replace(" ","_")
 links.write(html_start)
 
 for nation in puppets:
-	canonical = nation.lower().replace(" ", "_")
+	canonical = nation.lower().strip().replace(" ", "_")
 	escaped_canonical = re.escape(canonical)
 	container_protolink = container_prefix.format(*([canonical for _ in range(container_prefix.count("{}"))]))
 	containerise_rules_container.write("@^.*\\.nationstates\\.net/(.*/)?container={}(/.*)?$ , {}\n".format(escaped_canonical, nation))
